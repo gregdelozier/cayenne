@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_index():
-    return 'Hello from Cayenne!'
+    return 'Hello from the second version of the Cayenne app!'
 
 @app.route('/bye')
 def get_bye():
