@@ -13,7 +13,7 @@ def hello(name=None):
 
 @app.route('/')
 def get_index():
-    return 'Hello from the second version of the Cayenne app!'
+    return 'Hello from the really great second version of the Cayenne app!'
 
 @app.route('/bye')
 def get_bye():
