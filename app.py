@@ -17,6 +17,6 @@ def get_index():
 
 @app.route('/bye')
 def get_bye():
-    return 'Goodbye from Cayenne!!!'
+    return 'Goodbye from cayenne!!!'
 
 
