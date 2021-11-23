@@ -17,7 +17,7 @@ def get_index():
 
 @app.route('/demo')
 def get_demo():
-    return 'We are demonstrating branches!!!'
+    return 'We are demonstrating branching and pull requests!!!'
 
 @app.route('/bye')
 def get_bye():
