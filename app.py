@@ -15,6 +15,10 @@ def hello(name=None):
 def get_index():
     return 'Hello from the really extremely great second version of the Cayenne app!'
 
+@app.route('/demo')
+def get_demo():
+    return 'We are demonstrating branching and pull requests!!!'
+
 @app.route('/bye')
 def get_bye():
     return 'Goodbye from cayenne!!!'
